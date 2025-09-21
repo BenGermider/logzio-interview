@@ -1,0 +1,7 @@
+
+
+fetchers = [
+    OpenWeatherAPI(),
+    WeatherAPI(),
+    CSVFetcher()
+]

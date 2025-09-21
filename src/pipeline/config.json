@@ -1,0 +1,22 @@
+[
+  {
+    "type": "api",
+    "source": "https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric",
+    "interval": 60,
+    "cities": [
+      "Berlin"
+    ]
+  },
+  {
+    "type": "api",
+    "source": "http://api.weatherapi.com/v1/current.json?key={api_key}&q={city}",
+    "interval": 60,
+    "cities": []
+  },
+  {
+    "type": "file",
+    "source": "weather_data.csv",
+    "interval": 60,
+    "cities": []
+  }
+]
